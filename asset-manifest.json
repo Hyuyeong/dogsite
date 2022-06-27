@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/dogsite/static/css/main.24eaec81.css",
+    "main.js": "/dogsite/static/js/main.6e6e45cc.js",
+    "static/media/main-banner.png": "/dogsite/static/media/main-banner.ed62fb8b6719f228ef4b.png",
+    "static/media/card-image-walking.png": "/dogsite/static/media/card-image-walking.f480443ba109875ec672.png",
+    "static/media/card-image-sitting.png": "/dogsite/static/media/card-image-sitting.e1cdc04ea2c74632d225.png",
+    "static/media/card-image-boarding.png": "/dogsite/static/media/card-image-boarding.4ec4fca33b5689c75aea.png",
+    "index.html": "/dogsite/index.html",
+    "main.24eaec81.css.map": "/dogsite/static/css/main.24eaec81.css.map",
+    "main.6e6e45cc.js.map": "/dogsite/static/js/main.6e6e45cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24eaec81.css",
+    "static/js/main.6e6e45cc.js"
+  ]
+}
