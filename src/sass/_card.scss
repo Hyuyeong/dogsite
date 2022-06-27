@@ -1,0 +1,70 @@
+.container {
+  width: 120rem;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+  gap: 5rem;
+
+  margin-bottom: 15em;
+
+  @media only screen and (max-width: 50em) {
+    width: 80rem;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media only screen and (max-width: 25em) {
+    width: 38rem;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+.card {
+  display: flex;
+
+  flex-direction: column;
+
+  box-shadow: 0 1rem 2rem rgba(#000, 0.1);
+
+  border-radius: 5px;
+
+  // width: 30rem;
+  overflow: hidden;
+
+  @media only screen and (max-width: 50em) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media only screen and (max-width: 25em) {
+    display: flex;
+  }
+
+  img {
+    width: 100%;
+    align-self: stretch;
+  }
+
+  &__description {
+    padding: 3rem;
+
+    h3 {
+      font-size: 3rem;
+    }
+
+    h4 {
+      font-size: 1.8rem;
+    }
+
+    &-link {
+      color: #f69833;
+      font-weight: 800;
+      font-size: 2rem;
+      margin-top: 2rem;
+      cursor: pointer;
+    }
+  }
+}
