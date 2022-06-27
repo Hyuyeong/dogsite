@@ -1,22 +1,24 @@
 .container {
-  width: 120rem;
+  width: 100%;
 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin: 0 auto;
   gap: 5rem;
+  padding: 0 15rem;
 
   margin-bottom: 15em;
 
   @media only screen and (max-width: 50em) {
-    width: 80rem;
+    width: 100%;
 
     display: flex;
     flex-direction: column;
+
+    padding: 0 2rem;
   }
 
-  @media only screen and (max-width: 25em) {
-    width: 38rem;
+  @media only screen and (max-width: 37.5em) {
     display: grid;
     grid-template-columns: 1fr;
   }
@@ -39,7 +41,7 @@
     grid-template-columns: 1fr 1fr;
   }
 
-  @media only screen and (max-width: 25em) {
+  @media only screen and (max-width: 37.5em) {
     display: flex;
   }
 
